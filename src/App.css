@@ -22,6 +22,7 @@ button{
   color: var(--fr);
   border: 0.1vw solid var(--fr);
   border-radius: 0.3vw;
+  cursor: pointer;
 }
 
 .posts{
