@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+:root{
+  --bg: #6831af;
+  --fr: #af8b31;
+  --bl: #211c2c;
+}
+body{
+  background-color: var(--bg);
+  color: var(--fr);
+  font-family: 'Ubuntu', sans-serif;
+}
+h1{
+  background-color: var(--bl);
+}
+.logo{
+  width: 10%;
+}
+.send{
+  font-size: 1vw;
+}
+button{
+  background-color: var(--bl);
+  color: var(--fr);
+  border: 0.1vw solid var(--fr);
+  border-radius: 0.3vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.posts{
+  width: 100%;
+  background-color: var(--bl);
+  display: grid;
+  grid-template-columns: repeat(8, auto);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post{
+  margin: 1vw;
+  width: 90%;
 }
